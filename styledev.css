@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.devs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.dev{
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, yellow,red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.foto1{
+    
+    border-radius: 50%;
+    height: 100%;
+}
+
+.foto2{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
